@@ -58,3 +58,29 @@ def update_dashboard(filter_type):
         dff.drop(columns=['_id'], inplace=True)
         
     return dff.to_dict('records')
+
+
+## Tests
+To test the dashboard functionality:
+1. Open the `ProjectTwoDashboard.ipynb` file in your Jupyter environment.
+2. Verify that your database credentials are correct in the username and password variables.
+3. Run the complete notebook cell.
+4. The dashboard will launch either inline or in a new browser tab depending on your server configuration.
+5. Click each of the radio buttons sequentially to verify that the data table populates correctly and that the charts redraw based on the filtered data.
+
+## Screenshots
+
+**Reset Option:**
+![Reset Option](reset_option.png)
+
+**Water Rescue Filter Execution:** 
+![Water Rescue](water_rescue.png)
+
+**Mountain or Wilderness Rescue Filter Execution:** 
+![Mountain Rescue](mountain_rescue.png)
+
+**Disaster or Individual Tracking Filter Execution:** 
+![Disaster Tracking](disaster_tracking.png)
+
+## Contact
+Michael Rickerson
