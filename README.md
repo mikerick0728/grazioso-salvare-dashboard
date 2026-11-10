@@ -58,7 +58,7 @@ def update_dashboard(filter_type):
         dff.drop(columns=['_id'], inplace=True)
         
     return dff.to_dict('records')
-
+```
 
 ## Tests
 To test the dashboard functionality:
